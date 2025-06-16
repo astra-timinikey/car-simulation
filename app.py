@@ -290,7 +290,7 @@ def end_menu():
     
     if end_choice == "2":
         print("\nThank you for running the simulation. Goodbye!")
-        input()
+        # input()
         sys.exit()
     start_menu()
 

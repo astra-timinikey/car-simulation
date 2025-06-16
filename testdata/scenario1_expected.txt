@@ -1,0 +1,3 @@
+After simulation, the result is:
+- A, (5,4) S
+Thank you for running the simulation. Goodbye!

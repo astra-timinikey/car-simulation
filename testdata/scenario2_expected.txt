@@ -1,0 +1,4 @@
+After simulation, the result is:
+- A, collides with B at (5,4) at step 7
+- B, collides with A at (5,4) at step 7
+Thank you for running the simulation. Goodbye!
