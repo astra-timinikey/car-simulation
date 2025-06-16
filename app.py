@@ -10,8 +10,6 @@ class Car:
         self.x = int(x)
         self.y = int(y)
         self.commands = commands
-        self.current_step = None
-        self.collision_step = None
 
     def display(self):
         #*: List down car_name, current_position, current_direction, last_commands/all_commands
@@ -149,7 +147,7 @@ def add_car():
         break
     
     while True:
-        commands = input("Please enter the commands for car A:")
+        commands = input(f"Please enter the commands for car {car_name}:")
         if not input_validated(commands, "commands"):
             continue
         break
